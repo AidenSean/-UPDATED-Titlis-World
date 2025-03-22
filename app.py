@@ -5,7 +5,7 @@ from sentence_transformers import SentenceTransformer
 import sqlite3
 
 # 🔹 Configure Gemini API
-genai.configure(api_key="AIzaSyBGcAWwCpxrzY3z9hayFz8qmHT4WDe2Gzg")
+genai.configure(api_key="MY API KEY")
 model_gemini = genai.GenerativeModel("gemini-1.5-flash")
 
 # 🔹 Load embedding model
